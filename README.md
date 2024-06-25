@@ -1,14 +1,19 @@
-# .Net TestAm53
+# .Net TestAm53  
 
-#Script Banco de Dados
+# Script Banco de Dados
 
+  
 Executar o script abaixo em uma instância SqlServer 
 
+  
 CREATE DATABASE TesteAM53
 
+  
 GO
 
+  
 USE  TesteAM53
+
 go 
 CREATE TABLE Produto(
 	Id int identity(1,1) primary key,
